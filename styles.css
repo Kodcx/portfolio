@@ -47,6 +47,12 @@ body {
     color: #63546c;
     text-decoration: none;
 }
+.navbar a:hover {
+    color: rgba(3,3,3,0.3);
+    box-shadow: 3px 3px 5px;
+    transit: transform 600ms ease-in;
+
+}
 .image img {
   margin: -110px 300px 25px;
 }
@@ -86,4 +92,8 @@ footer li a .fa{
   width: 60px;
   margin: 10px;
   color: rgba(3,3,3,0.2);
-} 
+}
+footer li a .fa:hover  {
+    color: green;
+    transition: color 300ms ease-in;
+}
