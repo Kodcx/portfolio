@@ -94,6 +94,6 @@ footer li a .fa{
   color: rgba(3,3,3,0.2);
 }
 footer li a .fa:hover  {
-    color: green;
+    color: #63546c;
     transition: color 300ms ease-in;
 }
